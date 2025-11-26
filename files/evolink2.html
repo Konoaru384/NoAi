@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>EvoMerde – Gestion Merdique de la Crypto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    .blur-bg {
+      backdrop-filter: blur(12px);
+    }
+  </style>
+</head>
+
+<body class="bg-gradient-to-b from-gray-900 via-black to-gray-900 text-white">
+
+<nav id="navbar" class="fixed top-0 w-full z-50 transition-all duration-300 bg-transparent">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <div class="text-2xl font-bold">
+      <span class="text-white">EVO</span><span class="text-lime-400">MERDE.</span>
+    </div>
+
+    <div class="hidden md:flex gap-8 text-sm">
+      <a href="#home" class="hover:text-lime-400 transition">Accueil</a>
+      <a href="#services" class="hover:text-lime-400 transition">Aucun Services</a>
+      <a href="#about" class="hover:text-lime-400 transition">À pas propos</a>
+    </div>
+
+    <button id="btn-open-modal" class="bg-lime-400 text-black px-6 py-2 rounded-full font-semibold hover:bg-lime-300 transition">
+      DéConnexion
+    </button>
+  </div>
+</nav>
+
+<section id="home" class="pt-32 pb-20 px-6">
+  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+    
+    <div>
+      <p class="text-lime-400 text-sm font-semibold mb-4 flex items-center gap-2">
+        <i data-lucide="shield" class="w-4 h-4"></i> SÉCURITÉ MINIMAL
+      </p>
+
+      <h1 class="text-5xl md:text-6xl font-bold mb-6">
+        Gérez tout votre <span class="text-lime-400">portfolio crypto</span> (en donnant son contrôle a une IA (BOOOOOOOOUUUUUUUUUUUUUUUHHHH))
+      </h1>
+
+      <div class="flex items-center gap-4 mb-8">
+        <div class="flex -space-x-2">
+          <div class="w-10 h-10 bg-gradient-to-br from-lime-400 to-green-600 rounded-full border-2 border-black"></div>
+          <div class="w-10 h-10 bg-gradient-to-br from-lime-400 to-green-600 rounded-full border-2 border-black"></div>
+          <div class="w-10 h-10 bg-gradient-to-br from-lime-400 to-green-600 rounded-full border-2 border-black"></div>
+        </div>
+        <div>
+          <p class="text-2xl font-bold">0+</p>
+          <p class="text-gray-400 text-sm">utilisateurs IN/ACTIFS</p>
+        </div>
+      </div>
+
+      <div class="bg-gray-800/50 p-6 rounded-2xl border border-gray-700 mb-8">
+        <div class="flex items-start gap-4">
+          <div class="bg-lime-400 p-3 rounded-full">
+            <i data-lucide="lock" class="w-6 h-6 text-black"></i>
+          </div>
+          <p class="text-gray-300 text-sm">
+            Vous pouvez nous donner votre clé crypto... Vous aurez pas de revenus... mais vous donnerez envie a une ia de travailler 👍👍👍
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="relative">
+      <div class="absolute inset-0 bg-lime-400/20 blur-3xl rounded-full"></div>
+
+      <div class="relative bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-3xl border border-gray-700 shadow-2xl">
+        <div class="text-center mb-6">
+          <div class="inline-block bg-lime-400/10 p-4 rounded-full mb-4">
+            <i data-lucide="trending-up" class="w-12 h-12 text-lime-400"></i>
+          </div>
+          <h3 class="text-3xl font-bold mb-2">-10 €</h3>
+          <p class="text-gray-400">Volume total (nous vidons votre compte en banque au négatif)</p>
+        </div>
+        <div class="space-y-4">
+          <div class="bg-gray-800 p-4 rounded-xl flex justify-between">
+            <span class="text-gray-400">Bitcoin</span>
+            <span class="text-lime-400 font-bold">-1000 aura</span>
+          </div>
+          <div class="bg-gray-800 p-4 rounded-xl flex justify-between">
+            <span class="text-gray-400">Ethereum</span>
+            <span class="text-lime-400 font-bold" style="color: red;">BANNIE DE EVO MERDE</span>
+          </div>
+
+          <button id="btn-open-modal-hero" class="w-full bg-lime-400 text-black py-3 rounded-xl font-semibold hover:bg-lime-300">
+            Quitter maintenant !
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="services" class="py-20 px-6">
+  <div class="max-w-7xl mx-auto">
+    <h2 class="text-4xl md:text-5xl font-bold text-center mb-4">
+      Votre gestionnaire <span class="text-lime-400" style="color: red;">tout-en-NEUIL.</span>
+    </h2>
+    <p class="text-gray-400 text-center mb-16 max-w-2xl mx-auto" style="color: red;">
+      Ajoutez manuellement vos transactions, suivez en TEMPS DIRECT la baisse de votre compte banquaire...
+    </p>
+
+    <div class="grid md:grid-cols-3 gap-6">
+
+      <div class="bg-gray-800/30 border border-gray-700 p-8 rounded-2xl hover:border-lime-400 transition">
+        <div class="text-lime-400 text-4xl font-bold mb-4">01.</div>
+        <h3 class="text-xl font-bold mb-3">Ajout mannuel/emmanuel</h3>
+        <p class="text-gray-400 mb-4">Ajouter votre compte CRYPTO puis donnez tout a macron il addore le capitalisme...</p>
+      </div>
+
+      <div class="bg-gradient-to-br from-lime-400 to-green-500 p-8 rounded-2xl">
+        <div class="text-black text-4xl font-bold mb-4">02.</div>
+        <h3 class="text-xl font-bold mb-3 text-black">Centralisation</h3>
+        <p class="text-black/80 mb-4">Visualisez la deficite de votre compte...</p>
+      </div>
+
+      <div class="bg-gray-800/30 border border-gray-700 p-8 rounded-2xl hover:border-lime-400 transition">
+        <div class="text-lime-400 text-4xl font-bold mb-4">03.</div>
+        <h3 class="text-xl font-bold mb-3" style="color: red;">CRASH BOURISER</h3>
+        <p class="text-gray-400 mb-4">La derniere ET notre OBJECTIF.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="about" class="py-20 px-6">
+  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+    
+    <div class="bg-gray-800/30 border border-gray-700 p-8 rounded-2xl">
+      <p class="text-lime-400 font-semibold mb-2">Faies vous hack car nous mettont notre CLE subapase dans NOTRE CODE</p>
+      <p class="text-gray-400 text-sm" style="color: orange;">Simple ETTTTT Rapide.</p>
+
+      <div class="h-40 mb-6">
+        <svg class="w-full h-full" viewBox="0 0 400 160">
+          <path d="M 0 80 Q 100 20 200 60 T 400 40" stroke="#84cc16" stroke-width="3" fill="none"/>
+        </svg>
+      </div>
+
+      <div class="space-y-3">
+        <div class="flex justify-between">
+          <span class="text-gray-400">ATTENTION VOTRE ARGENT POURRAIT AUGEMENTER SI VOUS NE VOUS INSCRIVEZ PAS</span>
+          <span class="text-lime-400 font-bold">on est trop pas fort on fait des sites bien</span>
+        </div>
+        <div class="flex justify-between">
+          <span class="text-gray-400">REPONSE : "MAIS NOOOOOOON ON UTILISE PAS l'IA"</span>
+          <span class="text-white font-bold">Coder c'est simple</span>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="flex gap-2 mb-6 text-lime-400 text-2xl">
+        0/★★★★★
+      </div>
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">
+        Tableau de bord <span class="text-lime-400">NUL</span>.
+      </h2>
+      <p class="text-gray-400 mb-6">
+        L'urssaf vous aura !!!
+      </p>
+    </div>
+  </div>
+</section>
+
+<div id="modal" class="hidden fixed inset-0 bg-black/80 flex items-center justify-center p-6 z-50">
+  <div class="bg-gradient-to-br from-gray-900 to-black border border-lime-400/30 rounded-3xl max-w-md w-full p-8 relative shadow-2xl">
+    <button id="btn-close-modal" class="absolute top-4 right-4 text-gray-400 text-2xl">×</button>
+
+    <h2 class="text-3xl font-bold mb-6 text-center">Connexion</h2>
+
+    <div class="space-y-4">
+      <div>
+        <label for="email-field" class="block text-sm font-semibold mb-2">Email</label>
+        <input 
+          id="email-field" 
+          name="email"
+          type="email" 
+          autocomplete="email"
+          placeholder="votre@email.com" 
+          class="w-full bg-gray-800/50 border border-gray-700 rounded-xl px-4 py-3 text-white focus:border-lime-400 focus:outline-none">
+      </div>
+
+      <div>
+        <label for="password-field" class="block text-sm font-semibold mb-2">Mot de passe</label>
+        <input 
+          id="password-field" 
+          name="password"
+          type="password" 
+          autocomplete="current-password"
+          placeholder="••••••••" 
+          class="w-full bg-gray-800/50 border border-gray-700 rounded-xl px-4 py-3 text-white focus:border-lime-400 focus:outline-none">
+      </div>
+
+      <button id="btn-login" class="w-full bg-lime-400 text-black py-3 rounded-xl font-bold hover:bg-lime-300">
+        Se connecter
+      </button>
+    </div>
+  </div>
+</div>
+
+<footer class="border-t border-gray-800 py-8 px-6 mt-20 text-center text-gray-400 text-sm">
+  © 2025 EvoMerde – Appartient a GPT-5
+</footer>
+
+<script>
+
+</script>
+
+
+</body>
+</html>
